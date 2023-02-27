@@ -1,0 +1,195 @@
+
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+.contenedor .col1 {
+    position: relative;
+    background: #86978d;
+    padding: 40px;
+}
+
+
+
+.perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.perfil .imagen {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+    overflow: hidden;
+}
+
+.perfil .imagen img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.perfil h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.perfil h2 span {
+font-size: 0.8em;
+font-weight: 200;
+text-align: center;
+}
+
+
+
+
+
+.Infopersonal {
+    padding-top: 40px;
+}
+
+
+.Infopersonal h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.Infopersonal ul {
+    position: relative;
+    width: max-content;
+}
+
+.Infopersonal ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.Infopersonal ul li .icon{
+    font-size: 15px;
+    width: auto;
+
+}
+
+.Infopersonal ul li span {
+    font-size: 15px;
+    width: auto;
+}
+
+.Infopersonal ul li:hover {
+color: gold;
+}
+
+
+
+
+
+
+
+.contenedor .col2 {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+.experiencia .caja {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.experiencia .caja .años {
+    min-width: 150px;
+
+}
+
+.experiencia .caja .años h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+
+}
+
+.experiencia .caja .detalles h4 {
+    text-transform: uppercase;
+    color:#008cff;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.habilidades {
+    position: relative;
+    padding-top: 70px ;
+}
+
+.habilidades .caja {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.habilidades .caja h4{
+    text-transform: uppercase;
+    color:#008cff;
+    font-size: 16px;
+}
+
+.habilidades .caja .detalles .iconhab {
+    font-size: 30px;
+}
+
+
+
+.text {
+  transition: transform 0.3s;
+}
